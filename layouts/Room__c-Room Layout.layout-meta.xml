@@ -15,7 +15,7 @@
                 <field>Type_of_Rooms__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>Price__c</field>
             </layoutItems>
             <layoutItems>

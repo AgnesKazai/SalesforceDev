@@ -156,7 +156,7 @@
     <externalSharingModel>Private</externalSharingModel>
     <label>Customer</label>
     <nameField>
-        <label>Customer Name</label>
+        <label>First Name / Last Name</label>
         <trackHistory>false</trackHistory>
         <type>Text</type>
     </nameField>
