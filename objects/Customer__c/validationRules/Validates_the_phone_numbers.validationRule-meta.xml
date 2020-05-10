@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validates_the_phone_numbers</fullName>
+    <active>true</active>
+    <description>Validates that the Phone number is in (999) 999-9999 format. This works by using the REGEX function to check that the number has ten digits in the (999) 999-9999 format.</description>
+    <errorConditionFormula>NOT(REGEX(Phone__c, &quot;\\D*?(\\d\\D*?){8,10}&quot;))</errorConditionFormula>
+    <errorDisplayField>Phone__c</errorDisplayField>
+    <errorMessage>Phone numbers should be in this format: (999) 999-9999 or (99) 999-9999 or  (9) 999-9999.</errorMessage>
+</ValidationRule>

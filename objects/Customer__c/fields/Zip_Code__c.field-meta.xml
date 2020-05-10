@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Price__c</fullName>
-    <description>This field will contain the price of the room.</description>
+    <fullName>Zip_Code__c</fullName>
+    <description>This field will contain the zip codes of the customers.</description>
     <externalId>false</externalId>
-    <label>Price</label>
-    <precision>8</precision>
+    <label>Zip Code</label>
+    <precision>18</precision>
     <required>true</required>
     <scale>0</scale>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
-    <type>Currency</type>
+    <type>Number</type>
+    <unique>false</unique>
 </CustomField>
