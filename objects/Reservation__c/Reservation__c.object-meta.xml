@@ -143,7 +143,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>This object will contain informations about the costomer who make the resevation.</description>
+    <description>This object will contain all informations about the hotel reservation.</description>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -153,16 +153,16 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <externalSharingModel>Private</externalSharingModel>
-    <label>Customer</label>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <label>Reservation</label>
     <nameField>
-        <displayFormat>CUS-{00000}</displayFormat>
-        <label>Customer Number</label>
+        <displayFormat>RE-{0000}</displayFormat>
+        <label>Reservation Number</label>
         <trackHistory>false</trackHistory>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Customers</pluralLabel>
+    <pluralLabel>Reservations</pluralLabel>
     <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
